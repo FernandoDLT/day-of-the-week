@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, form {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+
+::placeholder {
+  color: lightgray
+}
+
+button:hover {
+color: lightgreen;
+background-color: green;
+}

@@ -8,14 +8,11 @@ h1, form {
 
 button {
   display: block;
-  margin: 20px auto;
-}
-
-::placeholder {
-  color: lightgray
+  margin: 20px auto;  
 }
 
 button:hover {
-color: lightgreen;
-background-color: green;
+  color: aqua;
+  background: blue;
+  cursor: pointer;
 }

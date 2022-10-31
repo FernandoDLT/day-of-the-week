@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -15,4 +15,29 @@ button:hover {
   color: aqua;
   background: blue;
   cursor: pointer;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+h1, form {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+button:hover {
+  color: aqua;
+  background-color: blueviolet;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: lightgray;
 }

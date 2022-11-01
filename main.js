@@ -4,16 +4,15 @@ document.querySelector('#check').addEventListener('click', check)
         const day = document.querySelector('#day').value.toLowerCase()
 
         if (day === 'tuesday' || day === 'thursday') {
-            alert ('There is class today')
+            alert ('We have a class today')
         }else if (day === 'saturday' || day === 'sunday') {
-            alert ('The weekend is here!')
+            alert ('It\'s the WEEKEND!!!')
         }else if (day === 'monday') {
-            alert ('Moncday\'s are sooooo looong')
+            alert ('The longest day o the week...')
         }else {
-            alert ('Booorrrring!!')
+            alert ('This is borrring!!')
         }
     }
-
 
 
 
